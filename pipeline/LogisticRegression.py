@@ -11,7 +11,7 @@ class LogisticRegression:
             'solver': ['lbfgs', 'liblinear']
         }
 
-    def execute(self, X_train, y_train, X_test, y_test):
+    def execute(self, X_train, y_train, X_test, y_test, dataset: str):
         best_model = self.utils.set_best_model(X_train, y_train, 'LogisticRegression', self.param_grid)
         y_pred = best_model.predict(X_test)
-        self.utils.get_metrics(y_pred, y_test, 'Regressão Logística')
+        self.utils.get_metrics(y_pred, y_test, 'Regressão Logística', dataset)
