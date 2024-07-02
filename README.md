@@ -19,3 +19,20 @@ Foram selecionados os seguintes datasets relacionados à área da saúde:
 - [Estimativa dos níveis de obesidade com base nos hábitos alimentares e na condição física](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)
 - [Recorrência de câncer de tireoide](https://archive.ics.uci.edu/dataset/915/differentiated+thyroid+cancer+recurrence)
 
+É necessário instalar as bibliotecas utilizadas. Para isso, execute o comando:
+```
+pip install -r requirements.txt
+```
+
+Para executar o código, basta rodar o comando:
+```
+python run.py dataset_desejado
+```
+
+Onde dataset_desejado corresponde ao dataset a ser utilizado. Esse parâmetro pode ter os seguintes valores:
+- dataset1 - Doenças cardíacas
+- dataset2 - Derrame cerebral
+- dataset3 - Mortalidade de câncer de pulmão
+- dataset4 - Estimativa dos níveis de obesidade com base nos hábitos alimentares e na condição física
+- dataset5 - Recorrência de câncer de tireoide
+

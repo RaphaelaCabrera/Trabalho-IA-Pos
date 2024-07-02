@@ -10,24 +10,31 @@ class Preprocess:
         self.scaler = StandardScaler()
 
     def execute(self, dataframe: pd.DataFrame, dataset: str):
-        coluna_alvo = ''
         if dataset == 'dataset1':
             dataframe = dataframe.dropna()
         categorical_columns = self.get_categorical_columns(dataframe)
         dataframe = self.process_categorical_columns(categorical_columns, dataframe)
-        if dataset == 'dataset1':
-            print("Colunas do dataframe:", dataframe.columns)
-            coluna_alvo = 'num'
-        elif dataset == 'dataset2':
-            print("Colunas do dataframe:", dataframe.columns)
-            coluna_alvo = 'stroke'
+        coluna_alvo = self.get_coluna_alvo(dataset)
         x = dataframe.drop(coluna_alvo, axis=1)
         y = dataframe[coluna_alvo]
         X_train, X_test, y_train, y_test = self.utils.set_train_test_sets(x, y)
-        numerical_columns = self.get_numerical_columns(dataframe)
-        X_train[numerical_columns] = self.scaler.fit_transform(X_train[numerical_columns])
-        X_test[numerical_columns] = self.scaler.transform(X_test[numerical_columns])
+        numerical_columns_x = self.get_numerical_columns(x)
+        X_train[numerical_columns_x] = self.scaler.fit_transform(X_train[numerical_columns_x])
+        X_test[numerical_columns_x] = self.scaler.transform(X_test[numerical_columns_x])
         return X_train, X_test, y_train, y_test
+
+    @staticmethod
+    def get_coluna_alvo(dataset):
+        if dataset == 'dataset1':
+            return 'num'
+        elif dataset == 'dataset2':
+            return 'stroke'
+        elif dataset == 'dataset3':
+            return 'survived'
+        elif dataset == 'dataset4':
+            return 'NObeyesdad'
+        elif dataset == 'dataset5':
+            return 'Recurred'
 
     @staticmethod
     def get_categorical_columns(dataframe):
