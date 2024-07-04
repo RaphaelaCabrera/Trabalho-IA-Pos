@@ -1,0 +1,99 @@
+[02-07-2024 15:37:31] | INFO | [18162 - MainProcess]: Início da execução do pipeline
+[02-07-2024 15:37:31] | INFO | [18162 - MainProcess]: Leitura do dataset sobre doenças cardíacas
+[02-07-2024 15:37:31] | INFO | [18162 - MainProcess]: Início do preprocessamento do dataset
+[02-07-2024 15:37:31] | INFO | [18162 - MainProcess]: Executando Regressão Logística
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: Resultados Regressão Logística
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: accuracy: 0.6166666666666667
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: precision_micro: 0.6166666666666667
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: precision_macro: 0.27297297297297296
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: precision_weighted: 0.6128378378378379
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: recall_micro: 0.6166666666666667
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: recall_macro: 0.2597802197802198
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: recall_weighted: 0.6166666666666667
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: f1_micro: 0.6166666666666667
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: f1_macro: 0.2647342995169082
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: f1_weighted: 0.6127214170692432
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: 
+confusion_matrix:
+[[32  2  1  0  0]
+ [ 2  5  2  4  0]
+ [ 2  1  0  2  0]
+ [ 0  2  2  0  0]
+ [ 1  0  1  1  0]]
+[02-07-2024 15:37:32] | INFO | [18162 - MainProcess]: Executando KNN
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: Resultados KNN
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: accuracy: 0.55
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: precision_micro: 0.55
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: precision_macro: 0.16923076923076924
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: precision_weighted: 0.4935897435897436
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: recall_micro: 0.55
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: recall_macro: 0.18857142857142856
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: recall_weighted: 0.55
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: f1_micro: 0.55
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: f1_macro: 0.1783783783783784
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: f1_weighted: 0.5202702702702703
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: 
+confusion_matrix:
+[[33  1  0  1  0]
+ [ 5  0  5  3  0]
+ [ 0  4  0  1  0]
+ [ 1  3  0  0  0]
+ [ 0  2  0  1  0]]
+[02-07-2024 15:37:33] | INFO | [18162 - MainProcess]: Executando SVM
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: Resultados SVM
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: accuracy: 0.65
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: precision_micro: 0.65
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: precision_macro: 0.3244778613199666
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: precision_weighted: 0.6258911166805903
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: recall_micro: 0.65
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: recall_macro: 0.3401098901098901
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: recall_weighted: 0.65
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: f1_micro: 0.65
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: f1_macro: 0.3268825238688252
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: f1_weighted: 0.6334073612840736
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: 
+confusion_matrix:
+[[33  1  1  0  0]
+ [ 3  4  3  3  0]
+ [ 1  2  1  1  0]
+ [ 0  2  1  1  0]
+ [ 1  0  1  1  0]]
+[02-07-2024 15:38:01] | INFO | [18162 - MainProcess]: Executando Árvores de Decisão
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: Resultados Árvores de Decisão
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: accuracy: 0.5833333333333334
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: precision_micro: 0.5833333333333334
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: precision_macro: 0.3111111111111111
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: precision_weighted: 0.5601851851851852
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: recall_micro: 0.5833333333333334
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: recall_macro: 0.3518681318681319
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: recall_weighted: 0.5833333333333334
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: f1_micro: 0.5833333333333334
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: f1_macro: 0.32774391805377723
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: f1_weighted: 0.570344003414426
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: 
+confusion_matrix:
+[[29  4  1  1  0]
+ [ 5  3  3  2  0]
+ [ 1  3  1  0  0]
+ [ 0  1  1  2  0]
+ [ 1  1  0  1  0]]
+[02-07-2024 15:38:14] | INFO | [18162 - MainProcess]: Executando Random Forest
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: Resultados Random Forest
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: accuracy: 0.6166666666666667
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: precision_micro: 0.6166666666666667
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: precision_macro: 0.255
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: precision_weighted: 0.5520833333333334
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: recall_micro: 0.6166666666666667
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: recall_macro: 0.29934065934065934
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: recall_weighted: 0.6166666666666667
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: f1_micro: 0.6166666666666667
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: f1_macro: 0.26742857142857146
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: f1_weighted: 0.5768253968253969
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: 
+confusion_matrix:
+[[33  1  1  0  0]
+ [ 4  2  5  2  0]
+ [ 2  1  2  0  0]
+ [ 1  2  1  0  0]
+ [ 0  2  1  0  0]]
+[02-07-2024 16:18:39] | INFO | [18162 - MainProcess]: Finalizada execução do pipeline
