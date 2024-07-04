@@ -1,0 +1,3 @@
+[02-07-2024 18:00:30] | INFO | [36730 - MainProcess]: Início da execução do pipeline
+[02-07-2024 18:00:30] | INFO | [36730 - MainProcess]: Leitura do dataset sobre Recorrência de câncer de tireoide
+[02-07-2024 18:00:30] | INFO | [36730 - MainProcess]: Início do preprocessamento do dataset

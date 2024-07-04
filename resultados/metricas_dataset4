@@ -1,0 +1,3 @@
+[02-07-2024 18:00:18] | INFO | [36654 - MainProcess]: Início da execução do pipeline
+[02-07-2024 18:00:18] | INFO | [36654 - MainProcess]: Leitura do dataset sobre estimativa dos níveis de obesidade
+[02-07-2024 18:00:18] | INFO | [36654 - MainProcess]: Início do preprocessamento do dataset

@@ -1,0 +1,90 @@
+[02-07-2024 16:21:34] | INFO | [23559 - MainProcess]: Início da execução do pipeline
+[02-07-2024 16:21:34] | INFO | [23559 - MainProcess]: Leitura do dataset sobre derrame cerebral
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: Início da execução do pipeline
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: Leitura do dataset sobre derrame cerebral
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: Início do preprocessamento do dataset
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: Executando Regressão Logística
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: Resultados Regressão Logística
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: accuracy: 0.9458375125376128
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: precision_micro: 0.9458375125376128
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: precision_macro: 0.4729187562688064
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: precision_weighted: 0.894608600123339
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: recall_micro: 0.9458375125376128
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: recall_macro: 0.5
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: recall_weighted: 0.9458375125376128
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: f1_micro: 0.9458375125376128
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: f1_macro: 0.4860824742268041
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: f1_weighted: 0.9195100766216174
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: 
+confusion_matrix:
+[[943   0]
+ [ 54   0]]
+[02-07-2024 16:21:54] | INFO | [23615 - MainProcess]: Executando KNN
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: Resultados KNN
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: accuracy: 0.9438314944834504
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: precision_micro: 0.9438314944834504
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: precision_macro: 0.4728643216080402
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: precision_weighted: 0.894505627435069
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: recall_micro: 0.9438314944834504
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: recall_macro: 0.49893955461293743
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: recall_weighted: 0.9438314944834504
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: f1_micro: 0.9438314944834504
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: f1_macro: 0.4855521155830753
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: f1_weighted: 0.9185068104209428
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: 
+confusion_matrix:
+[[941   2]
+ [ 54   0]]
+[02-07-2024 16:22:00] | INFO | [23615 - MainProcess]: Executando SVM
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: Início da execução do pipeline
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: Leitura do dataset sobre derrame cerebral
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: Início do preprocessamento do dataset
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: Executando Regressão Logística
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: Resultados Regressão Logística
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: accuracy: 0.9458375125376128
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: precision_micro: 0.9458375125376128
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: precision_macro: 0.4729187562688064
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: precision_weighted: 0.894608600123339
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: recall_micro: 0.9458375125376128
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: recall_macro: 0.5
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: recall_weighted: 0.9458375125376128
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: f1_micro: 0.9458375125376128
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: f1_macro: 0.4860824742268041
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: f1_weighted: 0.9195100766216174
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: 
+confusion_matrix:
+[[943   0]
+ [ 54   0]]
+[02-07-2024 17:37:23] | INFO | [29123 - MainProcess]: Executando KNN
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: Resultados KNN
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: accuracy: 0.9438314944834504
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: precision_micro: 0.9438314944834504
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: precision_macro: 0.4728643216080402
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: precision_weighted: 0.894505627435069
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: recall_micro: 0.9438314944834504
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: recall_macro: 0.49893955461293743
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: recall_weighted: 0.9438314944834504
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: f1_micro: 0.9438314944834504
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: f1_macro: 0.4855521155830753
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: f1_weighted: 0.9185068104209428
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: 
+confusion_matrix:
+[[941   2]
+ [ 54   0]]
+[02-07-2024 17:37:27] | INFO | [29123 - MainProcess]: Executando Árvores de Decisão
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: Resultados Árvores de Decisão
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: accuracy: 0.9428284854563691
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: precision_micro: 0.9428284854563691
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: precision_macro: 0.47283702213279677
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: precision_weighted: 0.8944539856995534
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: recall_micro: 0.9428284854563691
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: recall_macro: 0.4984093319194062
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: recall_weighted: 0.9428284854563691
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: f1_micro: 0.9428284854563691
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: f1_macro: 0.4852865255549819
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: f1_weighted: 0.9180044003978896
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: 
+confusion_matrix:
+[[940   3]
+ [ 54   0]]
+[02-07-2024 17:37:48] | INFO | [29123 - MainProcess]: Executando Random Forest

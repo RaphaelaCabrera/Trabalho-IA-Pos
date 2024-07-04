@@ -1,0 +1,68 @@
+[02-07-2024 17:59:23] | INFO | [35520 - MainProcess]: Início da execução do pipeline
+[02-07-2024 17:59:23] | INFO | [35520 - MainProcess]: Leitura do dataset sobre mortalidade de câncer de pulmão
+[02-07-2024 17:59:24] | INFO | [35520 - MainProcess]: Início do preprocessamento do dataset
+[02-07-2024 17:59:24] | INFO | [35520 - MainProcess]: Executando Regressão Logística
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: Resultados Regressão Logística
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: accuracy: 0.785
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: precision_micro: 0.785
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: precision_macro: 0.3944723618090452
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: precision_weighted: 0.6232663316582915
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: recall_micro: 0.785
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: recall_macro: 0.49683544303797467
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: recall_weighted: 0.785
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: f1_micro: 0.785
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: f1_macro: 0.43977591036414565
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: f1_weighted: 0.6948459383753501
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: 
+confusion_matrix:
+[[157   1]
+ [ 42   0]]
+[02-07-2024 17:59:30] | INFO | [35520 - MainProcess]: Executando KNN
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: Resultados KNN
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: accuracy: 0.765
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: precision_micro: 0.765
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: precision_macro: 0.3923076923076923
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: precision_weighted: 0.6198461538461538
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: recall_micro: 0.765
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: recall_macro: 0.48417721518987344
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: recall_weighted: 0.765
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: f1_micro: 0.765
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: f1_macro: 0.43342776203966005
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: f1_weighted: 0.6848158640226629
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: 
+confusion_matrix:
+[[153   5]
+ [ 42   0]]
+[02-07-2024 17:59:41] | INFO | [35520 - MainProcess]: Executando SVM
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: Resultados SVM
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: accuracy: 0.79
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: precision_micro: 0.79
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: precision_macro: 0.395
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: precision_weighted: 0.6241
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: recall_micro: 0.79
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: recall_macro: 0.5
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: recall_weighted: 0.79
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: f1_micro: 0.79
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: f1_macro: 0.441340782122905
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: f1_weighted: 0.69731843575419
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: 
+confusion_matrix:
+[[158   0]
+ [ 42   0]]
+[02-07-2024 18:13:39] | INFO | [35520 - MainProcess]: Executando Árvores de Decisão
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: Resultados Árvores de Decisão
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: accuracy: 0.785
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: precision_micro: 0.785
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: precision_macro: 0.3944723618090452
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: precision_weighted: 0.6232663316582915
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: recall_micro: 0.785
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: recall_macro: 0.49683544303797467
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: recall_weighted: 0.785
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: f1_micro: 0.785
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: f1_macro: 0.43977591036414565
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: f1_weighted: 0.6948459383753501
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: 
+confusion_matrix:
+[[157   1]
+ [ 42   0]]
+[02-07-2024 18:14:46] | INFO | [35520 - MainProcess]: Executando Random Forest
