@@ -1,4 +1,4 @@
-# Trabalho-IA-Pos
+# Trabalho-IA-Pos (Incompleto)
 Trabalho prático da disciplina de Inteligência Artificial do curso de pós-graduação em Ciências da Computação.
 
 O código implementado nesse repositório teve como objetivo treinar cinco algoritmos de classificação
